@@ -26,7 +26,7 @@ while ch != 0:
 
     if ch == 2:
         print("The matrix {0} has {1} lines and {2} columns.\n".format(A.matrix_name, A.no_of_lines, A.no_of_columns))
-        # print A's dimensions
+        # Print A's dimensions
 
     if ch == 3:
         print("The second matrix should have {0} lines and {1} columns\n".format(A.no_of_lines, A.no_of_columns))
@@ -43,7 +43,7 @@ while ch != 0:
         if B.no_of_lines != A.no_of_lines or B.no_of_columns != A.no_of_columns:
             # Dimensions are incompatible for addition
             print("Could not add the two matrices.\n")
-        else:  # Add the matrices and prints the result
+        else:  # Add the matrices and print the result
             C = A.add_matrices(B)
             print("Result of addition : ")
             C.display_matrix()
@@ -83,7 +83,7 @@ while ch != 0:
 
         if B.no_of_lines != A.no_of_columns:  # Dimensions are incompatible for multiplication
             print("Could not multiply the two matrices.\n")
-        else:  # MultiplY the matrices and print the result
+        else:  # Multiply the matrices and print the result
             C = A.multiply_matrices(B)
             print("Result of multiplication : ")
             C.display_matrix()
