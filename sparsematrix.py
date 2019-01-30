@@ -7,7 +7,7 @@ class SparseMatrix(object):
         self.no_of_elements = elements
         self.matrix_name = name
 
-        # elements_list - the list of elements of the matrix of the form [i ,j, k] where
+        # elements_list - the list of elements of the matrix in the form [i ,j, k] where
         #  i - the element's line
         #  j - the element's column
         #  k - the element's value, k != 0
