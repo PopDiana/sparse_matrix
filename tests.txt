@@ -1,0 +1,770 @@
+Enter the number of lines for the sparse matrix : 5
+Enter the number of columns for the sparse matrix : 5
+Enter the number of elements for the sparse matrix : 3
+Enter the line of the element: 1
+Enter the column of the element: 1
+Enter the value of the element: 2
+Enter the line of the element: 2
+Enter the column of the element: 3
+Enter the value of the element: 4.5
+Enter the line of the element: 2
+Enter the column of the element: 5
+Enter the value of the element: 2.4
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 1
+Matrix A  
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 2
+The matrix A has 5 lines and 5 columns.
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 3
+The second matrix should have 5 lines and 5 columns
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix : 2
+Enter the line of the element: 1
+Enter the column of the element: 1
+Enter the value of the element: 2
+Enter the line of the element: 2
+Enter the column of the element: 3
+Enter the value of the element: 2
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 2.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Result of addition :
+Matrix A + B
+
+4.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 6.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 3 
+The second matrix should have 5 lines and 5 columns
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix : 0
+
+Matrix B was deleted. 
+
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+Matrix A + B was deleted.
+
+Result of addition :
+Matrix A + B
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 4
+The second matrix should have 5 lines and 5 columns.
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix : 3
+Enter the line of the element: 1
+Enter the column of the element: 1
+Enter the value of the element: 2
+Enter the line of the element: 3
+Enter the column of the element: 4
+Enter the value of the element: 6
+Enter the line of the element: 2
+Enter the column of the element: 2
+Enter the value of the element: 3.4
+
+Matrix B was deleted.
+
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 3.4 0.0 0.0 0.0
+
+0.0 0.0 0.0 6.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+Matrix A + B was deleted. 
+
+Result of subtraction :
+Matrix A - B
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 -3.4 4.5 0.0 2.4
+
+0.0 0.0 0.0 -6.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 4 
+The second matrix should have 5 lines and 5 columns.
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix : 0
+
+Matrix B was deleted.
+
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+Matrix A - B was deleted.
+
+Result of subtraction :
+Matrix A - B
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 5
+The second matrix should have 5 lines.
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 4
+Enter the number of elements for the second matrix: 2
+Enter the line of the element: 1
+Enter the column of the element: 1
+Enter the value of the element: 3
+Enter the line of the element: 2
+Enter the column of the element: 4
+Enter the value of the element: 3
+
+Matrix B was deleted.
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+3.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 3.0
+
+0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+
+
+
+Matrix A - B was deleted.
+
+Result of multiplication :
+Matrix A * B
+
+6.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 5 
+The second matrix should have 5 lines.
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix: 0
+
+Matrix B was deleted.
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+Matrix A * B was deleted.
+
+Result of multiplication :
+Matrix A * B
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 5 
+The second matrix should have 5 lines.
+
+Enter the number of lines for the second matrix : 5
+Enter the number of columns for the second matrix : 5
+Enter the number of elements for the second matrix: 5
+Enter the line of the element: 1
+Enter the column of the element: 1
+Enter the value of the element: 1
+Enter the line of the element: 2
+Enter the column of the element: 2
+Enter the value of the element: 1
+Enter the line of the element: 3
+Enter the column of the element: 3
+Enter the value of the element: 1
+Enter the line of the element: 4
+Enter the column of the element: 4
+Enter the value of the element: 1
+Enter the line of the element: 5
+Enter the column of the element: 5
+Enter the value of the element: 1
+
+Matrix B was deleted.
+
+First matrix :
+Matrix A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+Second matrix :
+Matrix B
+
+1.0 0.0 0.0 0.0 0.0
+
+0.0 1.0 0.0 0.0 0.0
+
+0.0 0.0 1.0 0.0 0.0
+
+0.0 0.0 0.0 1.0 0.0
+
+0.0 0.0 0.0 0.0 1.0
+
+
+
+
+Matrix A * B was deleted.
+
+Result of multiplication :
+Matrix A * B
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 4.5 0.0 2.4
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 6
+Enter the dimension of the unit matrix : 4
+Matrix I4
+
+1.0 0.0 0.0 0.0
+
+0.0 1.0 0.0 0.0
+
+0.0 0.0 1.0 0.0
+
+0.0 0.0 0.0 1.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 7
+Enter the dimension of the zero matrix : 7
+Matrix O7
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 8
+Matrix Transposed A
+
+2.0 0.0 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 4.5 0.0 0.0 0.0
+
+0.0 0.0 0.0 0.0 0.0
+
+0.0 2.4 0.0 0.0 0.0
+
+
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 9
+Enter the value you wish to search in the current matrix : 0
+Please enter a non-zero value : 4.5
+The value was found at line 2 and column 3.
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 9
+Enter the value you wish to search in the current matrix : 3
+Could not find the value 3.0 in the matrix A.
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 10
+Enter the line of the element you wish to search in the current matrix : 1
+Enter the column of the element you wish to search in the current matrix : 1
+The value found at line 1 and column 1 in the matrix is 2.0.
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 10
+Enter the line of the element you wish to search in the current matrix : 2
+Enter the column of the element you wish to search in the current matrix : 2
+Could not find a non-zero value at line 2 and column 2 in the current matrix.
+
+
+1.Display matrix
+2.Display dimensions of the current matrix.
+3.Add matrices
+4.Subtract matrices
+5.Multiply matrices
+6.Create unit matrix
+7.Create zero matrix
+8.Transpose the current matrix
+9.Search for a value in the current matrix
+10.Access element in the matrix by indices
+Press '0' to exit the menu
+
+Choose : 0
+
+Matrix A was deleted.
+
+
+Matrix B was deleted.
+
+
+Matrix A*B was deleted.
+
+
+Matrix I4 was deleted.
+
+
+Matrix O7 was deleted.
+
+
+Matrix Transposed A was deleted.
